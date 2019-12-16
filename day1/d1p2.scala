@@ -3,7 +3,7 @@ import scala.io.Source
 object Main {
 
   def fuelReccurssion(fuel: Int): Int =
-    if(fuel < 12) return fuel else fuelReccurssion((fuel/3).floor.toInt - 2) + fuel
+    if(fuel <= 0) return 0 else fuelReccurssion(fuel/3 - 2) + fuel
 
 
   def main(args: Array[String]): Unit =
