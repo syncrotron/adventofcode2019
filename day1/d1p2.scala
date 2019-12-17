@@ -1,3 +1,5 @@
+//Created by Samuel Horovatin
+
 import scala.io.Source
 
 object Main {
